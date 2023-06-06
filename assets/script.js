@@ -1,4 +1,4 @@
-// Assignment Code
+
 var generateBtn = document.querySelector("#generate");
 var body = document.querySelector("Your Secure Password");
 var passwordText = document.querySelector("#password");
@@ -8,7 +8,7 @@ var uppercase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M"
 var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 var specialChar = ["!", "#", "$", "%", "&", "*", "+"];
 
-// Write password to the #password input
+
 function generatePassword(event) {
   var lowercaseQuestion = confirm("Would you like to use lowercase characters?");
   var indexL = (Math.floor(Math.random() * lowercase.length));
@@ -59,7 +59,4 @@ function generatePassword(event) {
 
 }
 
-
-
-// Add event listener to generate button
 generateBtn.addEventListener("click", generatePassword);
