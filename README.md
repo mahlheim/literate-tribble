@@ -12,6 +12,12 @@ N/A
 
 Navigate to the website, click on the large red button that reads "Generate Password" and answer the window prompts as they appear. A randomly generated password will populate in the white text box in the middle of the page. 
 
+url: https://mahlheim.github.io/literate-tribble/
+
+    ![screengrab](assets/screengrab.png)
+
+ ![screengrab](assets/screengrab.png)
+
 ## License 
 
 Please refer to the license in the repo.
