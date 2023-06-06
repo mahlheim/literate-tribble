@@ -51,10 +51,13 @@ function generatePassword(event) {
       var specialCharChoice = specialChar[indexSP] + specialChar[indexSP2];
     }
   } else {
-    specialCharChoice = "You must choose at least one character type! Refresh the page and try again!";
-  }
+    specialCharChoice = ""
+  } 
 
   var password = lowercaseChoice + uppercaseChoice + numbersChoice + specialCharChoice; 
+  if (!password) {
+    password = "You must choose at least one character type! Refresh the page and try again!";
+  }
   passwordText.textContent = password;
 
 }
